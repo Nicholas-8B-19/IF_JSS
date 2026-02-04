@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title> IF Statement</title>
+    <script>
+        function sub(){
+            var ck = document.getElementById("cek");
+            if(ck.checked==true){
+                document.getElementById("hsl").innerHTML = "Checked"
+            }
+        }
+    </script>
+</head>
+<body>
+    Try to check this <input type="checkbox" id="cek">
+    <br>
+    <button onclick="sub()">Submit</button>
+    <p id="hsl"></p>
+</body>
+</html>
